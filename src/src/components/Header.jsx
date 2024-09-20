@@ -19,8 +19,8 @@ const Subtitle = styled.p`
 function Header() {
   return (
     <HeaderContainer>
-      <Title>Моё Портфолио</Title>
-      <Subtitle>Здесь вы можете найти мои проекты</Subtitle>
+      <Title>My Portfolio</Title>
+      <Subtitle>here you can see some of my projects</Subtitle>
     </HeaderContainer>
   );
 }
