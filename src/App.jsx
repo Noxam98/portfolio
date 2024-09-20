@@ -1,13 +1,12 @@
-import React from 'react';
 import GlobalStyle from './GlobalStyles';
-import Header from '../../portfolio/src copy/components/Header';
-import ProjectsList from '../../portfolio/src copy/components/ProjectsList';
+import Header from './src/components/Header';
+import ProjectsList from './src/components/ProjectsList';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      <Header/>
       <ProjectsList />
     </>
   );
